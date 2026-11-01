@@ -20,6 +20,11 @@ const nextConfig = {
   experimental: {
     // one 404 page shared by both root layouts (en + /sr)
     globalNotFound: true,
+    // Hostinger's build container spawns ~34 static-export workers (vs. ~7
+    // locally) and the out/ directory is never written there, while the
+    // same build always succeeds with fewer workers. Capping this is a
+    // direct test of that concurrency theory.
+    cpus: 2,
   },
 };
 

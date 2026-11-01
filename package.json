@@ -4,7 +4,7 @@
   "version": "2.0.0",
   "scripts": {
     "dev": "next dev -p 3000",
-    "build": "(next build || next build) && echo '=== DEBUG: build cwd ===' && pwd && echo '=== DEBUG: out/ listing ===' && ls -la out && echo '=== DEBUG: out/ file count ===' && find out -type f | wc -l",
+    "build": "(next build --webpack || next build --webpack) && echo '=== DEBUG: build cwd ===' && pwd && echo '=== DEBUG: out/ listing ===' && ls -la out && echo '=== DEBUG: out/ file count ===' && find out -type f | wc -l",
     "start": "npx serve out -p 3000"
   },
   "dependencies": {

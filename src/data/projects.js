@@ -1,0 +1,158 @@
+// Optional `caseStudy` per project turns the portfolio page into a full case study:
+//   caseStudy: {
+//     challenge: { en: "…", sr: "…" },
+//     solution: { en: ["…", "…"], sr: ["…", "…"] },        // string or list
+//     results: [{ value: "+38%", label: { en: "more enquiries", sr: "više upita" } }],
+//     quote: { text: { en: "…", sr: "…" }, author: "Name", role: { en: "CEO", sr: "Direktor" } },
+//   }
+// Use only real, client-approved numbers.
+export const projects = [
+  {
+    slug: "anura-engineering",
+    img: "/anuraengineering.jpg",
+    title: "Anura Engineering",
+    tech: ["React", "Sanity", "Tailwind", "Vercel"],
+    url: "https://anuraengineering.co/",
+    descIndex: 0,
+    long: {
+      en: "A presentation website for an engineering company, featuring a portfolio of completed projects and a content-managed structure built on Sanity. The site emphasises trust, technical credibility, and a clear path to enquiry.",
+      sr: "Prezentacioni sajt inženjerske kompanije sa portfoliom realizovanih projekata i sadržajem koji se uređuje kroz Sanity CMS. Sajt naglašava poverenje, tehničku verodostojnost i jasan put do kontakta.",
+    },
+    industry: { en: "Engineering", sr: "Inženjering" },
+    role: { en: "Design, Development, CMS", sr: "Dizajn, Razvoj, CMS" },
+    year: "2024",
+  },
+  {
+    slug: "7dots",
+    img: "/7dots.jpg",
+    title: "7Dots",
+    tech: ["React", "Next.js", "Tailwind"],
+    url: "https://adu.3dfurniture.net/",
+    descIndex: 1,
+    long: {
+      en: "A corporate website built around a modern brand identity. Clean typography, structured information architecture, and conversion-focused calls to action drive the visitor toward enquiry.",
+      sr: "Korporativni sajt izgrađen oko modernog brend identiteta. Čista tipografija, struktuirana informaciona arhitektura i jasni pozivi na akciju vode posetioca ka upitu.",
+    },
+    industry: { en: "Corporate", sr: "Korporativno" },
+    role: { en: "Design, Development", sr: "Dizajn, Razvoj" },
+    year: "2024",
+  },
+  {
+    slug: "zelar-works",
+    img: "/zelarworks.jpg",
+    title: "Zelar Works",
+    tech: ["React", "GSAP", "Three.js", "Tailwind"],
+    url: "https://zelarworks.com/",
+    descIndex: 2,
+    long: {
+      en: "Portfolio site for a creative studio with custom animations, interactive 3D elements and a strong art-direction. Built to showcase craft and attention to detail.",
+      sr: "Portfolio sajt kreativnog studija sa custom animacijama, interaktivnim 3D elementima i jakom art-direkcijom. Napravljen da pokaže zanat i pažnju za detalje.",
+    },
+    industry: { en: "Creative Studio", sr: "Kreativni studio" },
+    role: { en: "Design, Development, Animation", sr: "Dizajn, Razvoj, Animacija" },
+    year: "2024",
+  },
+  {
+    slug: "mailuxo",
+    img: "/mailuxo.jpg",
+    title: "Mailuxo",
+    tech: ["WordPress", "GSAP", "PHP", "JavaScript"],
+    url: "http://mailuxo.io/",
+    descIndex: 3,
+    long: {
+      en: "Landing page for an email marketing platform, focused on signup conversion. Long-scroll narrative explains the product, social proof builds credibility, and the CTA leads to onboarding.",
+      sr: "Landing stranica platforme za email marketing, fokusirana na konverziju prijava. Dug scroll vodi posetioca kroz priču o proizvodu, social proof gradi poverenje, a CTA vodi u onboarding.",
+    },
+    industry: { en: "SaaS", sr: "SaaS" },
+    role: { en: "Design, Development", sr: "Dizajn, Razvoj" },
+    year: "2023",
+  },
+  {
+    slug: "us-expediters",
+    img: "/usexpediters.jpg",
+    title: "US Expediters",
+    tech: ["WordPress", "GSAP", "PHP", "JavaScript"],
+    url: "https://usexpeditersinc.com/",
+    descIndex: 4,
+    long: {
+      en: "Website for a US freight transport company including a dedicated portal for truck driver recruitment. Service pages, lead capture forms and a clear path for applicants.",
+      sr: "Sajt američke kompanije za prevoz robe sa posebnim portalom za regrutaciju vozača kamiona. Stranice usluga, forme za lead capture i jasan put za kandidate.",
+    },
+    industry: { en: "Logistics & Transport", sr: "Logistika i transport" },
+    role: { en: "Design, Development", sr: "Dizajn, Razvoj" },
+    year: "2023",
+  },
+  {
+    slug: "msc-engineer",
+    img: "/msc-engineer.jpg",
+    title: "MSC Engineer",
+    tech: ["WordPress", "GSAP", "PHP", "JavaScript"],
+    url: "https://msc-engineer.com/",
+    descIndex: 5,
+    long: {
+      en: "Engineering services site presenting capabilities, completed case studies and a portfolio of past projects. Built on WordPress for easy editorial updates.",
+      sr: "Sajt inženjerskih usluga koji predstavlja kapacitete, studije slučaja i portfolio realizovanih projekata. Izgrađen na WordPress-u radi lakog uređivanja sadržaja.",
+    },
+    industry: { en: "Engineering", sr: "Inženjering" },
+    role: { en: "Design, Development", sr: "Dizajn, Razvoj" },
+    year: "2023",
+  },
+  {
+    slug: "laki",
+    img: "/laki.jpg",
+    title: "Laki",
+    tech: ["WordPress", "GSAP", "PHP", "JavaScript"],
+    url: "https://laki.rs/",
+    descIndex: 6,
+    long: {
+      en: "A presentation website for Laki LLC, a family-owned producer and exporter of IQF frozen fruit based in Arilje, Serbia, in business since 1992. Built on WordPress so the team can manage products and content independently, with structured content blocks and fast iteration.",
+      sr: "Prezentacioni sajt za Laki d.o.o., porodičnu firmu iz Arilja koja se od 1992. godine bavi proizvodnjom i izvozom IQF (brzo smrznutog) voća. Sajt je izgrađen na WordPress CMS-u koji timu omogućava samostalno upravljanje sadržajem, sa struktuiranim blokovima i brzom iteracijom.",
+    },
+    industry: { en: "Food & Agriculture", sr: "Prehrambena industrija" },
+    role: { en: "Design, Development, CMS", sr: "Dizajn, Razvoj, CMS" },
+    year: "2024",
+  },
+  {
+    slug: "speedboat-windrose",
+    img: "/speedboatwindrose.jpg",
+    title: "Speedboat Windrose",
+    tech: ["WordPress", "GSAP", "PHP", "JavaScript"],
+    url: "https://speedboatwindrose.com/",
+    descIndex: 7,
+    long: {
+      en: "Presentation site for a nautical charter — emphasising the experience, the boat, and the routes on offer. Imagery-led design with a booking call-to-action.",
+      sr: "Prezentacioni sajt nautičkog čartera — naglašava iskustvo, plovilo i rute koje se nude. Dizajn vođen fotografijama sa CTA-em za rezervacije.",
+    },
+    industry: { en: "Tourism & Charter", sr: "Turizam i čarter" },
+    role: { en: "Design, Development", sr: "Dizajn, Razvoj" },
+    year: "2023",
+  },
+  {
+    slug: "spreg",
+    img: "/spreg.jpg",
+    // Sharp 1440px screenshot for the case-study hero; `img` stays the 800x600 card.
+    cover: "/projects/spreg/home.jpg",
+    title: "SPREG — Sajam privrede",
+    tech: ["WordPress", "ACF Pro", "GSAP", "Lenis", "Yoast SEO"],
+    url: "https://sajam.org.rs/",
+    descIndex: 8,
+    long: {
+      en: "SPREG — the Western Serbia Economic Fair — has been held in Valjevo since 2004 and has grown into the largest general regional fair in Serbia. Its website had been built on a theme with a page builder over the years and still carried demo content that search engines were indexing.\n\nWe redesigned it as a custom WordPress theme with ACF Pro content blocks: a light, editorial look built on the fair's blue and the gold of its 20th-anniversary mark, with fair statistics that count up, exhibitor pricing, downloadable application forms and hall plans, and photo galleries from every fair since 2012 — more than 500 photos with a lightbox, all reusing the existing media library.\n\nThe migration kept every URL, every Yoast title, description and canonical identical, verified page by page before and after the switch. Leftover demo pages were retired with 301 redirects, every page now has exactly one H1, and the site correctly declares Serbian as its language.",
+      sr: "SPREG — Sajam privrede zapadne Srbije — održava se u Valjevu od 2004. godine i izrastao je u najveći opšti regionalni sajam u Srbiji. Sajt je godinama građen na temi sa page builder-om i nosio je zaostali demo sadržaj koji su pretraživači indeksirali.\n\nRedizajnirali smo ga kao custom WordPress temu sa ACF Pro blokovima: svetao, editorijalni izgled u plavoj boji sajma i zlatnoj iz jubilarnog znaka, brojke sajma koje se odbrojavaju, cenovnik izlaganja, prijave i planovi hala za preuzimanje, i foto galerije sa svih sajmova od 2012. — više od 500 fotografija sa lightbox-om, iz postojeće biblioteke medija.\n\nMigracija je zadržala svaki URL, svaki Yoast naslov, opis i canonical identičnim, uz proveru strana pre i posle prelaska. Zaostale demo strane su ugašene 301 preusmerenjima, svaka strana ima tačno jedan H1, a sajt ispravno deklariše srpski kao jezik.",
+    },
+    gallery: [
+      { src: "/projects/spreg/stats.jpg", width: 1440, height: 640, alt: { en: "Fair statistics section — exhibitors, visitors and exhibition space", sr: "Brojke sajma — izlagači, posetioci i izložbeni prostor" } },
+      { src: "/projects/spreg/izlagaci.jpg", alt: { en: "Exhibitor hub with links to every exhibitor page", sr: "Strana za izlagače sa karticama ka svim informacijama" } },
+      { src: "/projects/spreg/cene.jpg", alt: { en: "Exhibition space pricing", sr: "Cenovnik izložbenog prostora" } },
+      { src: "/projects/spreg/galerija.jpg", alt: { en: "Photo gallery of the 2024 fair", sr: "Foto galerija sajma 2024" } },
+      { src: "/projects/spreg/mobile.jpg", alt: { en: "SPREG on mobile — homepage, pricing and fair profile", sr: "SPREG na telefonu — početna, cenovnik i profil sajma" } },
+    ],
+    industry: { en: "Trade Fairs & Events", sr: "Sajmovi i događaji" },
+    role: { en: "Redesign, Development, SEO migration", sr: "Redizajn, Razvoj, SEO migracija" },
+    year: "2026",
+  },
+];
+
+export function getProjectBySlug(slug) {
+  return projects.find((p) => p.slug === slug);
+}

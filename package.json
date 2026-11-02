@@ -4,7 +4,7 @@
   "version": "2.0.0",
   "scripts": {
     "dev": "next dev -p 3000",
-    "build": "(next build --webpack || next build --webpack); echo '=== DEBUG: build exit code ===' && echo $? && echo '=== DEBUG: build cwd ===' && pwd && whoami && echo '=== DEBUG: full cwd listing ===' && ls -la && echo '=== DEBUG: write permission test ===' && (mkdir -p write-test && touch write-test/probe.txt && echo WRITE_OK || echo WRITE_FAILED) && echo '=== DEBUG: .next listing (first 20) ===' && (ls -la .next 2>&1 | head -20 || echo NO_DOT_NEXT) && echo '=== DEBUG: out listing ===' && (ls -la out 2>&1 || echo NO_OUT)",
+    "build": "next build",
     "start": "npx serve out -p 3000"
   },
   "dependencies": {

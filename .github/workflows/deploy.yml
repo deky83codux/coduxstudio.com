@@ -32,5 +32,5 @@ jobs:
           REMOTE_PORT: 65002
           REMOTE_USER: u297877675
           SOURCE: "out/"
-          TARGET: "/home/u297877675/domains/indigo-rat-579105.hostingersite.com/public_html/"
+          TARGET: "/home/u297877675/domains/coduxstudio.com/public_html/"
           ARGS: "-rlgoDzvc -i --delete"

@@ -8,6 +8,21 @@
 // Use only real, client-approved numbers.
 export const projects = [
   {
+    slug: "coduxar",
+    img: "/coduxar.jpg",
+    title: "Coduxar",
+    tech: ["Next.js", "Node.js", "MySQL", "AI"],
+    url: "https://coduxar.com",
+    descIndex: 10,
+    long: {
+      en: "Coduxar is our own product: a web app that takes the paperwork off small companies' and freelancers' desks. Everything that normally lives in spreadsheets, emails and folders moves into one place: clients with data pulled from the official business registry, time tracking and projects, a task board, invoices in four templates with a QR payment code, and quotes, taxes and the simplified bookkeeping ledger used by Serbian sole traders.\n\nAI assistants do the busywork instead of the user: they read an old invoice or a bank statement, turn a client's email into a quote draft, and write a polite reminder to a client who's late on a payment. Every morning an email arrives with the deadlines coming due, so nothing slips through.\n\nThe app adapts to the business. An IT agency, a lawyer, a bookkeeper and a consultant each get their own modules and their own terminology — a lawyer gets a \"case\", not a \"project\". Several people from the same company work together in a shared workspace, with access data stored encrypted.\n\nFor the app we also built a presentation site, coduxar.com, designed as a directory: every feature has its own tab with a letter and an animated illustration, and the site links straight through to requesting access to the app.",
+      sr: "Coduxar je naš proizvod: web aplikacija koja sitnim firmama i preduzetnicima skida papirologiju sa vrata. Sve što inače stoji u tabelama, mejlovima i fasciklama prebačeno je na jedno mesto: klijenti sa podacima iz APR-a, evidencija sati i projekti, tabla zadataka, fakture u četiri šablona sa QR kodom za plaćanje, i ponude, porezi i KPO knjiga.\n\nAI pomoćnici popunjavaju posao umesto korisnika: pročitaju staru fakturu ili izvod iz banke, od mejla klijenta napravi nacrt ponude, i napišu ljubazan podsetnik klijentu koji kasni sa uplatom. Svakog jutra stiže mejl sa rokovima koji dospevaju, pa nijedan rok ne promakne.\n\nAplikacija se prilagođava delatnosti. IT agencija, advokat, knjigovođa i konsultant dobijaju svoje module i svoje izraze — za advokata je to „predmet\", a ne „projekat\". Više korisnika iste firme radi u zajedničkom radnom prostoru, a pristupni podaci se čuvaju šifrovano.\n\nZa aplikaciju smo uradili i prezentacioni sajt coduxar.com, osmišljen kao adresar. Svaka funkcija ima svoj jezičak sa slovom i animiranu ilustraciju, a sa sajta se direktno traži pristup aplikaciji.",
+    },
+    industry: { en: "SaaS Product", sr: "SaaS proizvod" },
+    role: { en: "Product strategy, UX/UI design, development, AI integration", sr: "Strategija proizvoda, UX/UI dizajn, razvoj, AI integracije" },
+    year: "2026",
+  },
+  {
     slug: "anura-engineering",
     img: "/anuraengineering.jpg",
     title: "Anura Engineering",
@@ -27,7 +42,7 @@ export const projects = [
     img: "/7dots.jpg",
     title: "7Dots",
     tech: ["React", "Next.js", "Tailwind"],
-    url: "https://adu.3dfurniture.net/",
+    url: "https://7dotsadu.com/",
     descIndex: 1,
     long: {
       en: "A corporate website built around a modern brand identity. Clean typography, structured information architecture, and conversion-focused calls to action drive the visitor toward enquiry.",

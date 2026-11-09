@@ -404,6 +404,7 @@ export const translations = {
         "Nautical charter presentation website.",
         "Regional trade fair website — redesign with SEO kept intact.",
         "Corporate web presence with multilingual support.",
+        "Internal web app for clients, invoices, quotes and deadlines, with AI assistants and a morning reminder.",
       ],
     },
     cta: {
@@ -884,6 +885,7 @@ export const translations = {
         "Prezentacioni sajt nautičkog čartera.",
         "Sajt regionalnog sajma privrede — redizajn uz očuvan SEO.",
         "Korporativna web prisutnost sa višejezičnom podrškom.",
+        "Interna veb aplikacija za klijente, fakture, ponude i rokove, sa AI pomoćnicima i jutarnjim podsetnikom.",
       ],
     },
     cta: {
